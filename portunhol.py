@@ -20,7 +20,7 @@ regexps = [
            (r"\b(tu|você)\b", "usted"),
            (r"\bdo\b", "del"),
            (r"\bem\b", "en"),
-           (r"\bomo\b", "bueno"),
+           (r"\bbom\b", "bueno"),
            (r"\b(a|o)(s?)\b", r"l\1\2"),
            (r"\bé\b", "es"),
            (r"\bcara\b", "cabrón"),
@@ -29,6 +29,12 @@ regexps = [
            (r"\bmuito\b", "mucho"),
            (r"\bnós\b", "nossotros"),
            (r"\btroc(ar|o)\b", r"cambi\1"),
+           (r"\bcarro\b", "coche"),
+           (r"\bse\b", "si"),
+           (r"\bquer\b", "quier"),
+           (r"\baqui\b", "acá"),
+           (r"\bdoce\b", "dulce"),
+           (r"\bfora\b", "fuera"),
 
            # pedaços
            (r"\b(\w{2,}?)ção\b", r"\1ción"),
