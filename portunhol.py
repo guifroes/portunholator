@@ -45,6 +45,7 @@ regexps = [
            (r"\b(\w*)al\b", r"\1ale"),
            (r"\b(\w)o(\w{2,3})\b", r"\1ue\2"),
            (r"\b(\w)e(\w{2,3})\b", r"\1ie\2"),
+           (r"\b(\w*)ch(\w*)\b", r"\1tch\2"),
            (r"\b(\w{3,}?)dade\b", r"\1dad"),
            ("nh", u"ñ"),
           ]
