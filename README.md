@@ -4,4 +4,4 @@ Non podemos dejar una data ton important passear en lo blanco! Hablemos lo marri
 
 Como ussar:
 
-En su liña de comando, entre: python portunhol.py "<frase que deserra traducir>"
+En su liña de comando, entre: **python portunhol.py "frase que deserra traducir"**
