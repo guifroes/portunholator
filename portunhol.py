@@ -13,7 +13,7 @@ regexps = [
            # palavras
            (r"\beu\b", "jo"),
            (r"\bmas\b", "pero"),
-           (r"\buma\b", "una"),
+           (r"\buma(s{0,1})\b", r"una\1"),
            (r"\bum\b", "uno"),
            (r"\b(minha|meu)\b", "mi"),
            (r"\b(s|t)(ua|eu)\b", r"\1u"),
@@ -27,6 +27,8 @@ regexps = [
            (r"\bhoje\b", "hoy"),
            (r"\bisso\b", "esso"),
            (r"\bmuito\b", "mucho"),
+           (r"\bnós\b", "nossotros"),
+           (r"\btroc(ar|o)\b", r"cambi\1"),
 
            # pedaços
            (r"\b(\w{2,}?)ção\b", r"\1ción"),
@@ -47,7 +49,7 @@ def portunholator(input):
         p = re.compile(pattern, re.U)
         input = p.sub(repl, input)
     print input
-    
+
 
 if __name__ == '__main__':
     frase_em_portugues = sys.argv[1]
