@@ -35,6 +35,7 @@ regexps = [
            (r"\baqui\b", "acá"),
            (r"\bdoce\b", "dulce"),
            (r"\bfora\b", "fuera"),
+           (r"\bou\b", "o"),
 
            # pedaços
            (r"\b(\w{2,}?)ção\b", r"\1ción"),
@@ -54,6 +55,7 @@ regexps = [
            ("ss", "s"),      
            (r"\bli(\w)\b", r"ll\1"),
            (r"\b(.*)(?=!)\b", r"¡\1"),
+           (r"\b(\w*)m\b", r"\1n"),
           ]
 
 
