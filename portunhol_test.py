@@ -3,7 +3,7 @@
 import unittest
 from portunhol import Portunholator
 
-class SimplisticTest(unittest.TestCase):
+class PortunholatorTieste(unittest.TestCase):
 
     def test(self):
     	portunholator = Portunholator()
